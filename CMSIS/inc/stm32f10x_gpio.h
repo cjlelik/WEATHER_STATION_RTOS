@@ -23,6 +23,8 @@
 #ifndef __STM32F10x_GPIO_H
 #define __STM32F10x_GPIO_H
 
+#define assert_param(expr) ((void)0)
+
 #ifdef __cplusplus
  extern "C" {
 #endif
