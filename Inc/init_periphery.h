@@ -18,7 +18,11 @@
 #include "task.h"
 #include "queue.h"
 
-
+#define button1_pin		GPIO_Pin_10
+#define button2_pin		GPIO_Pin_9
+#define button3_pin		GPIO_Pin_8
+#define button4_pin		GPIO_Pin_15
+#define lcd_led			GPIO_Pin_11
 
 void init(void);
 void init_gpio(void);

@@ -36,7 +36,6 @@ void SPI_SEND_BYTE(uint8_t data);
 void LcdPortInit(void);
 void Delay(uint32_t tick);
 void LcdInit(void);
-void LcdInitHello(void);
 void DMA1_Init(void);
 void LcdSendCom(uint8_t command);
 void LcdSendData(uint8_t data);

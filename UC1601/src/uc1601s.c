@@ -102,17 +102,6 @@ void LcdInit(void)
 	LcdGraphicsClear(LCD_Color_White);
 	LcdGraphicsRedraw();
 }
-void LcdInitHello(void)
-{
-	uint8_t buff[32];
-	for(uint8_t c=9; c>0; c--)
-	{
-		sprintf(buff, "%d", c);
-		LcdSizePutStr(buff, 0, 0, 5, 5, LCD_Color_Black);
-		LcdGraphicsRedraw();
-		Delay(1000000);
-	}
-}
 //----------------------------------------------------------------------------------------------
 void LcdGraphicsRedraw(void)
 {
